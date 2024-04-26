@@ -331,13 +331,21 @@
 
 		.label {
 			font-weight: 600;
-			width: 2px;
-			height: 2px;
-			border-radius: 100px;
+			width: 2.5px;
+			height: 2.5px;
+			border-radius: 100%;
 			position: absolute !important;
 			background-color: white;
 			-webkit-transition: 0.2s ease;
 			transform: scale(5);
+			box-shadow: 0px 0px 0.5px rgb(46, 46, 46);
+		}
+		
+		.description > span {
+			bottom: 0.33px;
+			position: relative;
+			text-shadow: 0px 0px 0.33px rgb(46, 46, 46) !important;
+			-webkit-text-stroke: 0.1px;
 		}
 
 		.mlo1 {
@@ -1116,6 +1124,13 @@
 		.shadow {
 			text-shadow: 0px 0px 5px rgb(46, 46, 46);
 		}
+
+		.blip_name {
+			color: #fff;
+			-webkit-text-stroke: 0.05px black;
+		}
+
+		
 	</style>
 </head>
 
